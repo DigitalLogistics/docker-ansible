@@ -2,7 +2,7 @@
 #
 # http://www.ansibleworks.com/
 
-FROM boxcar/raring
+FROM boothead/saucy
 MAINTAINER Ben Ford <ben@dlstartup.com>
 
 RUN apt-get update && apt-get upgrade -y
